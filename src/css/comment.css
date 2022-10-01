@@ -1,0 +1,38 @@
+.comments{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.comments .comment{
+    background-color:hsla(0, 0%, 95%, 1);
+    width: 604px;
+    height: 390px;
+    border-radius: 16px;
+}
+
+.comments .comment .comment-user{
+    padding: 40px;
+}
+
+.comment .comment-user h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    padding: 24px 0 16px 0;
+
+}
+
+.comment .comment-user p{
+    font-size: 24px;
+    font-weight: 400;
+    color:hsla(0, 0%, 38%, 1);
+    width: 400px;
+    padding-bottom: 16px;
+
+}
+
+.comment-user .stars img {
+    margin-left: 5px;
+}

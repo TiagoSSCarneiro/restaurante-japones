@@ -1,0 +1,115 @@
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header span {
+    color: hsla(355, 71%, 50%, 1);
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    gap: 7.1rem;
+    font-size: 2.4rem;
+}
+
+header .button-menu {
+    border: 1px solid black;
+    padding:  3px 25px;
+    border-radius: 5px;
+    font-size: 2.4rem;
+}
+
+header .button-menu:hover {
+    color: hsla(355, 71%, 50%, 1);
+    border: 1px solid hsla(355, 71%, 50%, 1);
+
+}
+
+header .menu li a {
+    transition: 0.2s ease;
+}
+header .menu li a:hover {
+    color: hsla(355, 71%, 50%, 1);
+}
+
+.info-comida {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.info-comida .comida .descricao {
+    width: 520px;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 48px;
+}
+
+.info-comida .comida h2 {
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.info-comida .comida .button-cardapio {
+    background-color:  rgb(255, 6, 22);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 24px; 
+    transition: 0.3s;
+}
+
+.info-comida .comida .button-cardapio:hover {
+    background-color: #ffff;
+    border: 1px solid black;
+    color: black;
+
+}
+
+.info-comida-receita {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.info-comida-receita .descricao-receita{
+    width: 500px;
+}
+
+.info-comida-receita .descricao-receita h2{
+    font-size: 48px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.info-comida-receita .descricao-receita p{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 40px;
+}
+
+.info-comida-receita .descricao-receita a{
+    color: red;
+    font-size: 24px;
+    font-family: "Inter";
+    text-decoration:underline;
+}
+
+
+

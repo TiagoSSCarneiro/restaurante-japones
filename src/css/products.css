@@ -1,0 +1,65 @@
+.container-produtos ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.container-produtos h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 54px;
+}
+
+.container-produtos .produtos {
+    background-color:hsla(0, 0%, 95%, 1);
+    height: 450px;
+    width: 380px;
+    text-align: center;
+    border-radius: 32px; 
+    position: relative; 
+    margin-top: 150px;
+}
+
+.container-produtos .produtos img{
+    width: 291px;
+    position: absolute;
+    top: -145px;
+    right: 45px;
+}
+
+.container-produtos .produtos {
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.container-produtos .produtos h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 50px;
+}
+
+.container-produtos .produtos p {
+    color: hsla(0, 0%, 38%, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter';
+    line-height: 29px;
+    padding: 22px 0 30px;
+}
+
+.container-produtos .produtos h5 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 500; 
+    margin-bottom: 30px;
+}
+
+
+
