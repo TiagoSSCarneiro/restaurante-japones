@@ -1,8 +1,14 @@
+.container-comment .comment-tittle h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    margin: 100px 0 48px 0 ;
+}
 .comments{
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .comments .comment{

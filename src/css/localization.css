@@ -1,0 +1,24 @@
+.localization h2{
+    font-size: 48px;
+    font-weight: 600;
+    padding: 100px 0 60px 0;
+}
+
+.localization img {
+    width: 100%;
+}
+
+.localization-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.localization-map input {
+    border: solid 1px black;
+    width: 630px;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+    font-family: 'Inter';
+}
+

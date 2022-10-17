@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="/src/css/reset.css">
     <link rel="stylesheet" href="/src/css/products.css">
     <link rel="stylesheet" href="/src/css/comment.css">
+    <link rel="stylesheet" href="/src/css/localization.css">
 
 </head>
 
 <body>
     <header>
-        <h1 class="titulo">Food<span>JP</span></h1>
+        <a href="#"><h1 class="titulo">Food<span>JP</span></h1></a> 
         <nav>
             <ul class="menu">
                 <li> 
@@ -118,11 +119,13 @@
             </div>  
         </div>
     </section>
-    <div class="localizacao">
+    <div class="localization">
        <h2>Localização</h2>
        <img src="src/imagem/mapa rio.png" alt="mapa do rio de janeiro">
-       <input type="text" value="Localização para entrega">
-       <a class="btn-busca" href="#">Buscar</a>
+       <div class="localization-map">
+        <input type="text" value="Localização para entrega">
+        <a class="btn-busca" href="#">Buscar</a>
+       </div>
     </div>
     <footer>
         <div class="container-info">
