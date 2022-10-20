@@ -1,0 +1,44 @@
+.container-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    margin: 100px 0 200px 0;
+}
+
+.container-info ul {
+    margin-top: 24px;
+}
+.container-info ul li {
+    padding-top: 8px;
+}
+.container-info ul li a {
+    font-weight: 'Roboto';
+    font-size: 1.8rem;
+    color: hsla(0, 0%, 38%, 1);
+    transition: 0.2s ease-in;
+}
+
+.container-info ul li a:hover{
+    color: black;
+}
+
+.container-info .contato {
+    margin: 0 180px 0 50px;
+}
+
+.container-info .sobre {
+    margin-right: 150px;
+}
+
+.container-info h5{
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.container-info .titulo {
+    font-size: 4rem; 
+}
+
+.container-info span {
+    color: hsla(355, 71%, 50%, 1);
+}
