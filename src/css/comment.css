@@ -1,44 +1,44 @@
 .container-comment .comment-tittle h2 {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 600;
     font-family: 'Montserrat';
-    margin: 100px 0 48px 0 ;
+    margin: 10rem 0 4.8rem 0 ;
 }
 .comments{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .comments .comment{
     background-color:hsla(0, 0%, 95%, 1);
-    width: 604px;
-    height: 390px;
-    border-radius: 16px;
+    width: 60.4rem;
+    height: 39rem;
+    border-radius: 1.6rem;
 }
 
 .comments .comment .comment-user{
-    padding: 40px;
+    padding: 4rem;
 }
 
 .comment .comment-user h3{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 500;
     font-family: 'Montserrat';
-    padding: 24px 0 16px 0;
+    padding: 2.4rem 0 1.6rem 0;
 
 }
 
 .comment .comment-user p{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
     color:hsla(0, 0%, 38%, 1);
-    width: 400px;
-    padding-bottom: 16px;
+    width: 40rem;
+    padding-bottom: 1.6rem;
 
 }
 
 .comment-user .stars img {
-    margin-left: 5px;
+    margin-left: 0.5rem;
 }

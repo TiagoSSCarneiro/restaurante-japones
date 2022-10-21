@@ -2,31 +2,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 48px;
+    gap: 4.8rem;
     flex-wrap: wrap;
 }
 
 .container-produtos h2{
     text-align: center;
-    font-size: 48px;
-    margin-bottom: 54px;
+    font-size: 4.8rem;
+    margin-bottom: 5.4rem;
 }
 
 .container-produtos .produtos {
     background-color:hsla(0, 0%, 95%, 1);
-    height: 450px;
-    width: 380px;
+    height: 45rem;
+    width: 38rem;
     text-align: center;
-    border-radius: 32px; 
+    border-radius: 3.2rem; 
     position: relative; 
-    margin-top: 150px;
+    margin-top: 15rem;
 }
 
 .container-produtos .produtos img{
-    width: 291px;
+    width: 29.1rem;
     position: absolute;
-    top: -145px;
-    right: 45px;
+    top: -14.5rem;
+    right: 4.5rem;
 }
 
 .container-produtos .produtos {
@@ -34,32 +34,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 2rem;
     justify-content: flex-end;
 }
 
 .container-produtos .produtos h3{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 500;
-    line-height: 40px;
-    height: 50px;
+    line-height: 4rem;
+    height: 5rem;
 }
 
 .container-produtos .produtos p {
     color: hsla(0, 0%, 38%, 1);
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     font-family: 'Inter';
-    line-height: 29px;
-    padding: 22px 0 30px;
+    line-height: 2.9rem;
+    padding: 2.2rem 0 3.0rem;
 }
 
 .container-produtos .produtos h5 {
     font-family: 'Montserrat';
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 500; 
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
-
-
-

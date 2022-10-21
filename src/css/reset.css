@@ -8,14 +8,19 @@
     box-sizing: border-box;
     border: none;
     padding: 0;
-    margin: 0;
-    max-width: 1240px;
+    margin: 0;    
+}
+
+body {
+    max-width:1420px ;
+    margin: 0 auto;
+    width: 100%;
+    padding: 2.5rem;
 }
 
 html {
     font-family: "Inter", sans-serif;
     outline: none;
-    margin: 0 auto;
     font-size: 62.5%;
     scroll-behavior: smooth;
     
@@ -27,7 +32,7 @@ h1,h3,h5, p {
 }
 
 h2{
-    font-size: 48px;
+    font-size: 4.8rem;
     color: hsla(0, 0%, 16%, 1);
 }
 

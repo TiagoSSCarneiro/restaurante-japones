@@ -1,9 +1,8 @@
 header {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 0;
+    margin: 4.0rem 0;
 }
 
 header h1 {
@@ -22,15 +21,15 @@ header .menu {
 }
 
 header .button-menu {
-    border: 1px solid black;
-    padding:  3px 25px;
-    border-radius: 5px;
+    border: 0.1rem solid black;
+    padding:  0.3rem 2.5rem;
+    border-radius: 0.5rem;
     font-size: 2.4rem;
 }
 
 header .button-menu:hover {
     color: hsla(355, 71%, 50%, 1);
-    border: 1px solid hsla(355, 71%, 50%, 1);
+    border: 0.1rem solid hsla(355, 71%, 50%, 1);
 
 }
 
@@ -45,68 +44,73 @@ header .menu li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 
 
 .info-comida .comida .descricao {
-    width: 520px;
-    font-size: 24px;
-    line-height: 38px;
-    margin-bottom: 48px;
+    width: 52rem;
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+    margin-bottom: 4.8rem;
 }
 
 .info-comida .comida h2 {
-    margin-bottom: 24px;
-    font-size: 48px;
+    margin-bottom: 2.4rem;
+    font-size: 4.8rem;
     font-family: 'Montserrat';
     font-weight: 600;
 }
 
 .info-comida .comida .button-cardapio {
     background-color:  rgb(255, 6, 22);
-    padding: 10px 40px;
-    border-radius: 10px;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
     color: #ffff;
-    font-size: 24px; 
+    font-size: 2.4rem; 
     transition: 0.3s;
 }
 
 .info-comida .comida .button-cardapio:hover {
     background-color: #ffff;
-    border: 1px solid black;
+    border: 0.1rem solid black;
     color: black;
 
 }
 
 .info-comida-receita {
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    gap: 12rem;
+}
 
+.info-comida-receita img {
+    flex: 1;
 }
 
 .info-comida-receita .descricao-receita{
-    width: 500px;
+    flex: 1;
 }
 
 .info-comida-receita .descricao-receita h2{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-family: "Montserrat";
     font-weight: 600;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
 
 .info-comida-receita .descricao-receita p{
-    font-size: 24px;
-    line-height: 38px;
-    margin-bottom: 40px;
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+    margin-bottom: 4.0rem;
 }
 
 .info-comida-receita .descricao-receita a{
     color: red;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: "Inter";
     text-decoration:underline;
 }

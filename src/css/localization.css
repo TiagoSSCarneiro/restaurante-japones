@@ -1,7 +1,7 @@
 .localization h2{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 600;
-    padding: 100px 0 60px 0;
+    padding: 10rem 0 6rem 0;
 }
 
 .localization img {
@@ -12,29 +12,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 56px;
+    margin-top: 5.6rem;
     position: relative;
 }
 
 .localization-map input {
     border: solid 1px black;
-    width: 630px;
-    height: 70px;
-    border-radius: 10px 0 0 10px;
+    width: 63rem;
+    height: 7rem;
+    border-radius: 1rem 0 0 1rem;
     font-family: 'Inter';
-    padding-left: 66px;
+    padding-left: 6.6rem;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: hsla(0, 0%, 16%, 1);
 }
 
 .localization-map .btn-container{
     background-color: #da2535;
-    width: 183px;
-    height: 70px;
-    border-radius: 0 10px 10px 0;
+    width: 18.3rem;
+    height: 7rem;
+    border-radius: 0 1rem 1rem 0;
     font-family: 'inter';
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -46,11 +46,11 @@
 }
 
 .localization-map .ico-localization i {
-    font-size: 30px;
+    font-size: 3rem;
     color:#da2535;
     position: absolute;
-    top: 22px;
-    right: 983px;
+    top: 2.2rem;
+    right: 107.8rem;
 
 }
 
